@@ -1,8 +1,5 @@
 
-const { snsClient } = require("../config/snsConfig");
 const db = require("../models");
-
-
 
 const almacen = db.almacen;
 
