@@ -7,6 +7,8 @@ const Op = db.Sequelize.Op;
 
 const { SNSClient,PublishCommand  } = require("@aws-sdk/client-sns");
 
+require('dotenv').config()
+
 const snsClient = new SNSClient({
     region: process.env.REGION,
     credentials: {
