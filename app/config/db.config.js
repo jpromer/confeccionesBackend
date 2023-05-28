@@ -1,11 +1,9 @@
-require('dotenv').config()
-
 module.exports = {
   HOST: process.env.HOST,
   PORT: process.env.PORTMYSQL,
-  USER: process.env.USER,
-  PASSWORD: process.env.PASSWORD,
-  DB: process.env.DB,
+  USER: process.env.USER_DB,
+  PASSWORD: process.env.PASSWORD_DB,
+  DB: process.env.DB_NAME,
   dialect: "mysql",
   dialectOptions: {
     connectTimeout: 30000, // 30 segundos
