@@ -1,0 +1,34 @@
+{
+    "name": "confecciones-appbackend",
+    "version": "1.0.0",
+    "description": "App confecciones UdeA ingenieria web",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Ingenieria-WEB20201/Confecciones-APPBACKEND.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Ingenieria-WEB20201/Confecciones-APPBACKEND/issues"
+    },
+    "homepage": "https://github.com/Ingenieria-WEB20201/Confecciones-APPBACKEND#readme",
+    "dependencies": {
+        "@aws-sdk/client-sns": "^3.341.0",
+        "aws-sdk": "^2.1386.0",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mysql2": "^2.1.0",
+        "nodemon": "^2.0.3",
+        "sequelize": "^5.22.5"
+    }
+}
